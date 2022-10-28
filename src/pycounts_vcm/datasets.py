@@ -12,6 +12,6 @@ def get_flatland():
     ----------
     .. [1] E. A. Abbott, "Flatland", Seeley & Co., 1884.
     """
-    with resources.path("pycounts.data", "flatland.txt") as f:
+    with resources.path("pycounts_vcm.data", "flatland.txt") as f:
         data_file_path = f
     return data_file_path
