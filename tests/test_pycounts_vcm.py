@@ -60,4 +60,4 @@ def test_regression():
     """Regression test for Flatland"""
     top_word = count_words(get_flatland()).most_common(1)
     assert top_word[0][0] == "the", "Most common word is not 'the'"
-    assert top_word[0][1] == 2244, "'the' count has changed"
+    assert top_word[0][1] == 2263, "'the' count has changed"
